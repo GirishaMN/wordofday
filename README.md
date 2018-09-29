@@ -20,7 +20,7 @@ mysql> select * from words;
 +--------+---------------------------------+
 10 rows in set (0.00 sec)
 
-The Script datkes the system day and computes a hash function based on the total number of rows in the table.
+The Script takes the system day and computes a hash function based on the total number of rows in the table.
 Later this hashed value is used to specify that row to be retrived from the table using the limit option of mysql.
 
 output:
